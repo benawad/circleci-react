@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: node:latest
+      - image: node:11.10.1
 
     working_directory: ~/repo
 
